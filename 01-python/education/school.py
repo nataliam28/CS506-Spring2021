@@ -1,3 +1,6 @@
+import random 
+
 def draw_school():
-    print("school not found")
+    school_types = ['high', 'middle', 'elemetary']
+    print("[This is a(n) "+ random.choice(school_types)+ "school]")
     return
